@@ -17,9 +17,9 @@ int main()
         l.push_back(1);
     }
     //cout << "l is full" << endl;
-    //LList l1(l);//Было 4.688
+    //LList l1(l);//Было 4.647
     //cout << "l1 is full" << endl;
-    LList l2(move(l));//После move стало 2,344
+    LList l2(move(l));//После move стало 2,358
     //cout << "l2 is full" << endl;
     //cout << "l1 size is: " << l1.size() << endl;
     //cout << "l2 size is: " << l2.size() << endl;
